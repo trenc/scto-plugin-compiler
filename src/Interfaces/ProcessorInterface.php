@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yab\PluginCompiler\Interfaces;
+namespace Scto\PluginCompiler\Interfaces;
 
 interface ProcessorInterface
 {

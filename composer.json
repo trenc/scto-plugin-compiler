@@ -1,8 +1,8 @@
 {
-    "name": "yab/plugin-compiler",
+    "name": "scto/plugin-compiler",
     "description": "A plugin compiler for Textpattern CMS.",
     "keywords": ["textpattern", "plugin", "compiler"],
-    "homepage": "https://github.com/trenc/yab-plugin-compiler",
+    "homepage": "https://github.com/trenc/scto-plugin-compiler",
     "license": "GPL-2.0",
     "type": "library",
     "authors": [
@@ -13,8 +13,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/trenc/yab-plugin-compiler/issues",
-        "source": "https://github.com/trenc/yab-plugin-compiler"
+        "issues": "https://github.com/trenc/scto-plugin-compiler/issues",
+        "source": "https://github.com/trenc/scto-plugin-compiler"
     },
     "require": {
         "php": ">=8.2",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yab\\PluginCompiler\\": "src/"
+            "Scto\\PluginCompiler\\": "src/"
         }
     },
     "require-dev": {

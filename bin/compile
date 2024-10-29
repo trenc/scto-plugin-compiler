@@ -3,7 +3,7 @@
 
 require './vendor/autoload.php';
 
-use Yab\PluginCompiler\CompilerApp;
+use Scto\PluginCompiler\CompilerApp;
 
 try {
     array_shift($argv);

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yab\PluginCompiler;
+namespace Scto\PluginCompiler;
 
-use Yab\PluginCompiler\Interfaces\ProcessorInterface;
+use Scto\PluginCompiler\Interfaces\ProcessorInterface;
 
 class FileProcessor implements ProcessorInterface
 {
