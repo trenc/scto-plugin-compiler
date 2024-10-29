@@ -1,0 +1,21 @@
+#!/usr/bin/env php
+<?php
+
+require './vendor/autoload.php';
+
+use Yab\PluginCompiler\CompilerApp;
+
+try {
+    array_shift($argv);
+
+    $app = new CompilerApp();
+    $app->run($argv);
+
+    echo "Code successfully compiled.";
+    exit(0);
+} catch (\Exception $e) {
+    echo "{$e->getMessage()} \n";
+    exit(1);
+}
+
+exit(1);
