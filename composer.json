@@ -1,0 +1,37 @@
+{
+    "name": "yab/plugin-compiler",
+    "description": "A plugin compiler for Textpattern CMS.",
+    "keywords": ["textpattern", "plugin", "compiler"],
+    "homepage": "https://github.com/trenc/yab-plugin-compiler",
+    "license": "GPL-2.0",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tommy Schmucker",
+            "homepage": "https://tommyschmucker.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/trenc/yab-plugin-compiler/issues",
+        "source": "https://github.com/trenc/yab-plugin-compiler"
+    },
+    "require": {
+        "php": ">=8.2",
+        "netcarver/textile": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yab\\PluginCompiler\\": "src/"
+        }
+    },
+    "require-dev": {
+        "laravel/pint": "^1.18",
+        "phpunit/phpunit": "^11.4"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
