@@ -3,6 +3,7 @@
 !.github
 !.gitignore
 /dist/
+/tests/Fixtures/my_plugin/dist
 /vendor/
 composer.lock
 .phpactor.json
