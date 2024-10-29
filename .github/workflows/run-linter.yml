@@ -1,0 +1,24 @@
+name: Fix coding style
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Laravel Pint
+        uses: aglipanci/laravel-pint-action@latest
+        with:
+          verboseMode: true
+          testMode: false
+
+      - name: Commit linted files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "refactor: fix coding style"
