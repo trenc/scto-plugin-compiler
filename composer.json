@@ -25,6 +25,7 @@
             "Scto\\PluginCompiler\\": "src/"
         }
     },
+    "bin": ["bin/scto-compile"],
     "require-dev": {
         "laravel/pint": "^1.18",
         "phpunit/phpunit": "^11.4"
