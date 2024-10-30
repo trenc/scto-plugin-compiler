@@ -78,9 +78,7 @@ class CompilerAppTest extends TestCase
 
         $app->run($args);
 
-print_r($app);
         $compiled = file_get_contents($this->args[4] . "/{$this->pluginName}_0.1.0.txt");
-print_r($compiled);
         $compiledZip = file_get_contents($this->args[4] . "/{$this->pluginName}_0.1.0_zip.txt");
 
         $this->assertStringEqualsStringIgnoringLineEndings($compiled, $expected);
