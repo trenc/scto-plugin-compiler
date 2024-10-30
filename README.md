@@ -22,7 +22,7 @@ The compiler binary can has up to five arguments for compiling.
 $ ./vendor/bin/scto-compile manifest.json help.textile textpack.txt srcFolder outputFolder
 ```
 
-The plugin compiler can slso be used programmatically:
+The plugin compiler can also be used library:
 
 ```
 use Scto\PluginCompiler\CompilerApp;
