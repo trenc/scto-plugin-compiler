@@ -49,8 +49,8 @@ class CompilerApp
         $version = $this->pluginData->getVersion();
 
         $fileName = $zip
-            ? "{$name}_{$version}.txt"
-            : "{$name}_{$version}_zip.txt";
+            ? "{$name}_{$version}_zip.txt"
+            : "{$name}_{$version}.txt";
 
         file_put_contents($folder . '/' . $fileName, $content);
     }

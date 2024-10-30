@@ -83,7 +83,7 @@ print_r($app);
 print_r($compiled);
         $compiledZip = file_get_contents($this->args[4] . "/{$this->pluginName}_0.1.0_zip.txt");
 
-        $this->assertTrue(($compiled === $expected));
-        $this->assertTrue(($compiledZip === $expectedZip));
+        $this->assertStringEqualsStringIgnoringLineEndings($compiled, $expected);
+        $this->assertStringEqualsStringIgnoringLineEndings($compiledZip, $expectedZip);
     }
 }

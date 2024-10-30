@@ -1,4 +1,4 @@
-# Name:  my_plugin v0.1.0
+# Name:  my_plugin v0.1.0 (compressed)
 # Type: Public plugin
 # Test Manifest
 # Author: Tommy Schmucker
@@ -9,12 +9,9 @@
 # To install: textpattern > admin > plugins
 # Paste the following text into the 'Install plugin' box:
 # .....................................................................
-YToxMjp7czo3OiJ2ZXJzaW9uIjtzOjU6IjAuMS4wIjtzOjY6ImF1dGhvciI7czoxNToiVG9t
-bXkgU2NobXVja2VyIjtzOjEwOiJhdXRob3JfdXJpIjtzOjI2OiJodHRwczovL3RvbW15c2No
-bXVja2VyLmRlLyI7czoxMToiZGVzY3JpcHRpb24iO3M6MTM6IlRlc3QgTWFuaWZlc3QiO3M6
-NToib3JkZXIiO2k6NTtzOjQ6InR5cGUiO2k6MDtzOjU6ImZsYWdzIjtpOjA7czo0OiJoZWxw
-IjtzOjEzOiI8aDE+VGVzdDwvaDE+IjtzOjg6InRleHRwYWNrIjtzOjM2OiIjQHB1YmxpYwp0
-ZXN0X2hlbGxvID0+IEhlbGxvIFdvcmxkIQoiO3M6NDoiY29kZSI7czo1NzoiZGVjbGFyZShz
-dHJpY3RfdHlwZXM9MSk7CgovLyBpbmRleC5waHAKCi8vIEFiY0NsYXNzLnBocAoKIjtzOjQ6
-Im5hbWUiO3M6OToibXlfcGx1Z2luIjtzOjM6Im1kNSI7czozMjoiNzFjODA0ZTg5OWEwNmQ2
-NjFjZTU3MjY0NTkxYjQ4NmUiO30=
+H4sIAAAAAAAAAzVQu27EIBDs/RUOaZLGNj4/uYcSpUmTKpFSWhi4MzpsEODorCj/HsDnbmZ2
+Z3a0GMEc/RpUI/DDtOFyAnuDSgSyBCaZxxUCeLaD1J5AN/mS47jEn2QYZ3Jlq5xtS92suVdy
+ZxusVQalqfUGs+0nlKXBAxGgzBDNlb2fhTuXzoyNP/DEzw7cu0hN/R2OSscLBOyimKfZOj4L
+fDEbd+OBCbXFHQZ48pGH1AEvNs7OblZhcvV053o+vqi5F5xE1i12zi1kfDzF7wF8Sy3oQwTW
+aCIpC6VqX54IrNmTsZoT2/lS5gif91GUpjGfKLslalCBvfbkTWBjVuGeNeExZLUIjEunxHzh
+4Quu9UjLgHIEakiarGBN2+KsolUFCSvrvCrKFvZFU7mEv3911cmLxAEAAA==
