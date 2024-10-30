@@ -11,10 +11,10 @@ try {
     $app = new CompilerApp();
     $app->run($argv);
 
-    echo "Code successfully compiled.";
+    echo "\nCode successfully compiled.\n\n";
     exit(0);
 } catch (\Exception $e) {
-    echo "{$e->getMessage()} \n";
+    echo "\n{$e->getMessage()} \n\n";
     exit(1);
 }
 
