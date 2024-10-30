@@ -1,6 +1,7 @@
 name: Run tests
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - main
@@ -19,6 +20,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '8.2'
+          extensions: mbstring, zip
           coverage: none
 
       - name: Run composer install

@@ -34,7 +34,9 @@ class Compiler
 EOF;
 
         $pluginString = serialize($plugin);
-        $encodedPlugin = $zip ? base64_encode(gzencode($pluginString)) : base64_encode($pluginString);
+        $encodedPlugin = $zip
+            ? base64_encode(gzencode($pluginString))
+            : base64_encode($pluginString);
 
         return $header . "\n" . chunk_split($encodedPlugin, 72);
     }
