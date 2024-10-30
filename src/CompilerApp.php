@@ -28,7 +28,7 @@ class CompilerApp
         $folderProcessor = new FolderProcessor($this->pluginData);
         $folderProcessor->process($src);
 
-        $name = basename(dirname($manifest));
+        $name = basename(getcwd());
         $this->pluginData->setName($name);
 
         $code = $this->pluginData->getCode();

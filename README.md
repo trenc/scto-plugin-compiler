@@ -17,6 +17,7 @@ $ composer require scto/plugin-compiler --dev
 ## Usage
 
 The compiler binary can has up to five arguments for compiling.
+N.B.: The name of the plugin created from the name of the current woking directory.
 
 ```
 $ ./vendor/bin/scto-compile manifest.json help.textile textpack.txt srcFolder outputFolder
