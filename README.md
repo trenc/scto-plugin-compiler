@@ -10,13 +10,35 @@ Compiler for creating installable plugin files for the [Textpattern CMS](https:/
 
 ## Installation
 
-´$ composer require scto/plugin-compiler --dev´
+```
+$ composer require scto/plugin-compiler --dev
+```
 
 ## Usage
 
 The compiler binary can has up to five arguments for compiling.
 
-´$ ./vendor/bin/scto-compile manifest.json help.textile textpack.txt srcFolder outputFolder´
+```
+$ ./vendor/bin/scto-compile manifest.json help.textile textpack.txt srcFolder outputFolder
+```
+
+The plugin compiler can slso be used programmatically:
+
+```
+use Scto\PluginCompiler\CompilerApp;
+
+
+public $args = [
+    'manifest.json', // manifest file
+    'help.textile',  // help file in textile markup
+    'textpack.txt',  // combined textpack file with all localisation strings
+    'src',           // directory with the PHP source code
+    'dist',          // directory for the compiled plugins
+];
+
+$app = new CompilerApp();
+$app->run($args);
+```
 
 ## Alternatives
 
